@@ -5,9 +5,9 @@ require 'active_support/core_ext'
 module MeasureFormtastic
   extend ActiveSupport::Autoload
 
-  # autoload :Helpers, 'measure_formtastic/helpers'
-  #
-  # eager_autoload do
-  #   autoload :FormBuilder, 'measure_formtastic/form_helper'
-  # end
+  autoload :Helpers, 'measure_formtastic/helpers'
+
+  eager_autoload do
+    autoload :FormBuilder, 'measure_formtastic/form_helper'
+  end
 end
