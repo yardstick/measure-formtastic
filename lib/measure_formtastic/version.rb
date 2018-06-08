@@ -1,3 +1,3 @@
 module MeasureFormtastic
-  VERSION = '0.0.013'
+  VERSION = '0.0.014'
 end
