@@ -1,5 +1,5 @@
 module MeasureFormtastic
-  class MeasureFormBuilder < ActionView::Helpers::FormBuilder
+  class FormBuilder < ActionView::Helpers::FormBuilder
     def self.configure(name, default = nil)
       class_attribute(name)
       self.send(:"#{name}=", default)
