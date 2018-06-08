@@ -15,7 +15,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.post_install_message = %q{}
 
-  s.add_dependency(%q<i18n>, ['~> 0.4'])
-  s.add_development_dependency(%q<rspec-rails>, ['~> 2.0.0'])
-  s.add_dependency(%q<activesupport>, ['>= 2.0.0'])
+  s.add_dependency(%q<i18n>, ['>= 0.4'])
 end
