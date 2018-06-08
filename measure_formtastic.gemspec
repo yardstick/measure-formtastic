@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = %w[lib]
   s.files = `git ls-files -z`.split("\x0")
-  s.executables = gem.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.post_install_message = %q{}
 
   s.add_dependency(%q<i18n>, ['>= 0.4'])
