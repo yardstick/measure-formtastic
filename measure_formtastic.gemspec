@@ -16,4 +16,5 @@ Gem::Specification.new do |s|
   s.post_install_message = %q{}
 
   s.add_dependency(%q<i18n>, ['>= 0.4'])
+  s.add_dependency(%q<activesupport>, ['>= 0.2'])
 end

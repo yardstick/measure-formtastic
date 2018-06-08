@@ -5,7 +5,7 @@ module MeasureFormtastic
       self.send(:"#{name}=", default)
     end
 
-    attr_reader :template
+    # attr_reader :template
 
     def initialize(object_name, object, template, options)
       super

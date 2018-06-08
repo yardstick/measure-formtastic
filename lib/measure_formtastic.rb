@@ -1,6 +1,7 @@
+# encoding: utf-8
 require 'active_support'
 
-module MeasureFormtastic #:nodoc:
+module MeasureFormtastic
   extend ActiveSupport::Autoload
 
   autoload :Helpers
