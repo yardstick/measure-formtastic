@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -z`.split("\x0")
   s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.post_install_message = %q{}
+
+  s.add_runtime_dependency('activesupport', '>= 2.0.0')
 end

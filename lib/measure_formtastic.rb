@@ -1,9 +1,9 @@
 # encoding: utf-8
-# require 'active_support'
-# require 'active_support/core_ext'
+require 'active_support'
+require 'active_support/core_ext'
 
 module MeasureFormtastic
-  # extend ActiveSupport::Autoload
+  extend ActiveSupport::Autoload
 
   # autoload :Helpers, 'measure_formtastic/helpers'
   #
