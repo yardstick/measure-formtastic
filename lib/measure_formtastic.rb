@@ -8,6 +8,6 @@ module MeasureFormtastic
   autoload :Helpers, 'measure_formtastic/helpers'
 
   eager_autoload do
-    autoload :FormBuilder, 'measure_formtastic/form_helper'
+    autoload :FormBuilder, 'measure_formtastic/form_builder'
   end
 end
