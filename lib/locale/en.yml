@@ -1,0 +1,11 @@
+en:
+  measure_formtastic:
+    yes: 'Yes'
+    no: 'No'
+    create: 'Create %{model}'
+    save: 'Save %{model}'
+    update: 'Update %{model}'
+    remove: 'Remove %{model}'
+    destroy: 'Destroy %{model}'
+    submit: 'Submit %{model}'
+    required: 'required'
