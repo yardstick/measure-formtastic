@@ -32,7 +32,7 @@ module MeasureFormtastic
         singularizer = if defined?(ActiveModel::Naming.singular)
           ActiveModel::Naming.method(:singular)
         else
-         ActionController::RecordIdentifier.method(:singular_class_name)
+          ActionController::RecordIdentifier.method(:singular_class_name)
         end
 
         class_names = options[:html][:class] ? options[:html][:class].split(' ') : []
